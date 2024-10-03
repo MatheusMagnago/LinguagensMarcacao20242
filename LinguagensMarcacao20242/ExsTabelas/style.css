@@ -1,0 +1,21 @@
+.tb_div1 {
+    display: block;
+    border: 1px solid black;
+    width: 250px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.tb {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tb tr td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.td_mid {
+    text-align: center;
+}
