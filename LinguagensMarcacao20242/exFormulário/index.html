@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Formulário</title>
+</head>
+<body>
+
+
+    <h1>Cadastrar usuário</h1>
+    <form action="">
+        <fieldset>
+            <legend>1 Dados pessoais</legend>
+
+            <label for="name">Nome:</label>
+                <input type="text" id="name">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha">
+
+                <label for="cSenha">Confirmar Senha: </label>
+                <input type="password" id="cSenha">
+
+                <label for="">
+                    Idade:
+                    <input type="radio" id="r1">
+                    <label for="r1">Acima de 17</label>
+                    <input type="radio" id="r2">
+                    <label for="r2">Abaixo ou igual a 17.</label>
+                </label>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>2 Perfil</legend>
+
+            <textarea name="descricao" id="desc" cols="20" rows="4"></textarea>
+
+            <select name="" id="">
+                <option value="front">Front-End Developer</option>
+                <option value="back">Back-End Developer</option>
+                <option value="full">Full-Stack Developer</option>
+            </select>
+
+            <input type="radio" id="prog">
+            <label for="prog">Programador</label>
+            <input type="radio" id="desig">
+            <label for="desig">Design</label>
+            <input type="radio" id="analist">
+            <label for="analist">Analista</label>
+        </fieldset>
+    </form>
+
+    <button type="submit">Enviar dados</button>
+    
+</body>
+</html>
