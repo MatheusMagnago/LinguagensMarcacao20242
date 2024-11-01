@@ -1,0 +1,17 @@
+body #container input[type="text"] {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+body #container input[type="text"]:focus {
+    background: rgba(69, 69, 238, 0.575);
+    color: white;
+}
+
+
+body #container textarea {
+    width: 100%;
+    height: 300px;
+    display: block;
+}

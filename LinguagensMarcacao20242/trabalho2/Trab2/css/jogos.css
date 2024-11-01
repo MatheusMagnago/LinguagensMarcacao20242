@@ -1,0 +1,23 @@
+body table {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    
+}
+
+body table td {
+    margin: 10px;
+    text-align: start;
+    border-bottom: 1px solid blue;
+}
+
+body table img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100px;
+}
+
+body table tr:hover {
+    color: blue;
+    cursor: pointer;
+}
