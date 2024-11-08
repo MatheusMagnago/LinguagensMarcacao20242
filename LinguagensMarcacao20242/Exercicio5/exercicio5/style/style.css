@@ -1,0 +1,46 @@
+body {
+    background-color: #BFECFF;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+body h3 {
+    font-size: larger;
+}
+
+main {
+    margin: auto;
+}
+
+table {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table th, td {
+    background-color: #f8f8f8;
+    padding: 1.2em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+main table th {
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+
+
+/*
+    Responda a pergunta: Se você tivesse usado unidades de medidas absolutas, e configurasse a largura da
+    tabela com 1500px, o que aconteceria no momento da exibição da tabela em uma tela de celular?
+
+    Resposta: A tabela ficaria muito grande para a tela, fazendo com que o usuário tenha dificuldade de enxergá-la
+    */
