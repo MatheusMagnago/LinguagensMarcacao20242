@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+
+    <main>
+        <form action="">
+            <h2>Cadastrar usuário</h2>
+
+            <fieldset>
+                <legend><span class="ord">1</span>Dados Pessoais</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+
+                <label for="senha">Senha:</label>
+                <input type="text" id="senha">
+
+                <label for="cSenha">Confirmar Senha:</label>
+                <input type="text" id="cSenha">
+
+                <label for="">Idade:</label>
+                <ul>
+                    <li>
+                        <input class="inline" type="checkbox" id="17plus">
+                        <label class="inline" for="17plus">Acima 17</label>
+                    </li>
+                    <li>
+                        <input class="inline" type="checkbox" id="17below">
+                        <label class="inline" for="17below">Abaixo ou igual 17</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend><span class="ord">2</span>Perfil</legend>
+                <label for="desc">Descrição:</label>
+                <textarea name="desc" id="desc"></textarea>
+
+                <label for="job">Perfil trabalho</label>
+                <select name="job" id="job">
+                    <option value="fd">Front-End Developer</option>
+                    <option value="bd">Back-End Developer</option>
+                    <option value="ff">Full-Stack Developer</option>
+                </select>
+
+                <label for="">Interesses:</label>
+        
+                <ul>
+                    <li>
+                        <input class="inline" type="checkbox" id="prog">
+                    <label class="inline" for="prog">Programador</label>
+                    </li>
+                    <li>
+                        <input class="inline" type="checkbox" id="design">
+                    <label class="inline" for="design">Design</label>
+                    </li>
+                    <li>
+                        <input class="inline" type="checkbox" id="analist">
+                    <label class="inline" for="analist">Analista</label>
+                    </li>
+                </ul>
+
+            </fieldset>
+
+            <button type="submit">Enviar dados</button>
+        </form>
+    </main>
+    
+</body>
+</html>

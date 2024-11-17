@@ -1,0 +1,92 @@
+body {
+    font-family: "Nunito", sans-serif;
+    width: 100vh;
+    margin: auto;
+    font-weight: bold;
+    font-weight: 200;
+}
+
+body h2 {
+    font-size: 30px;
+
+}
+
+main form fieldset * {
+    display: block;
+    margin-top: 10px;
+}
+
+main form {
+    width: 400px;
+    margin: 10px auto;
+    background-color: #abdbe35d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    justify-items: center;
+}
+
+main form fieldset {
+    width: 300px;
+    border: none;
+}
+
+main form fieldset legend {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+main form fieldset legend span {
+    display: inline;
+    margin-right: 10px;
+    color: white;
+    background-color: greenyellow;
+    padding: 0 10px;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+main form input[type="text"], textarea {
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+    outline: 0;
+    height: auto;
+    box-shadow: 0 0 1px;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.103);
+}
+
+main form select {
+    width: 100%;
+    background: rgba(128, 128, 128, 0.103);
+    font-size: 14px;
+}
+
+
+main form input[type="checkbox"], label {
+    display: inline;
+}
+
+main form .inline {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+main form ul {
+    margin: 0;
+    padding: 0;
+}
+
+main form button {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+}
